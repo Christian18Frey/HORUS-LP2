@@ -1,0 +1,356 @@
+﻿object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Controle de Estoque - Aplica'#231#227'o Single Tier Delphi'
+  ClientHeight = 511
+  ClientWidth = 788
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 785
+    Height = 57
+    TabOrder = 0
+    object DBNavigator1: TDBNavigator
+      Left = 400
+      Top = 6
+      Width = 380
+      Height = 45
+      DataSource = DataSource1
+      TabOrder = 0
+    end
+  end
+  object Panel2: TPanel
+    Left = -5
+    Top = 63
+    Width = 790
+    Height = 114
+    TabOrder = 1
+    object Label1: TLabel
+      Left = 16
+      Top = 8
+      Width = 33
+      Height = 13
+      Caption = 'Codigo'
+    end
+    object Label2: TLabel
+      Left = 16
+      Top = 51
+      Width = 23
+      Height = 13
+      Caption = 'Data'
+    end
+    object Label3: TLabel
+      Left = 127
+      Top = 8
+      Width = 46
+      Height = 13
+      Caption = 'Descricao'
+    end
+    object Label4: TLabel
+      Left = 672
+      Top = 8
+      Width = 39
+      Height = 13
+      Caption = 'Unidade'
+    end
+    object Label5: TLabel
+      Left = 127
+      Top = 51
+      Width = 55
+      Height = 13
+      Caption = 'Fornecedor'
+    end
+    object Label6: TLabel
+      Left = 672
+      Top = 51
+      Width = 24
+      Height = 13
+      Caption = 'Total'
+    end
+    object Label7: TLabel
+      Left = 545
+      Top = 51
+      Width = 37
+      Height = 13
+      Caption = 'Unitario'
+    end
+    object Label8: TLabel
+      Left = 430
+      Top = 51
+      Width = 97
+      Height = 13
+      Caption = 'Quantidade (+ ou -)'
+    end
+    object DBEdit1: TDBEdit
+      Left = 16
+      Top = 24
+      Width = 105
+      Height = 21
+      DataField = 'C'#243'digo'
+      DataSource = DataSource1
+      TabOrder = 0
+    end
+    object DBEdit2: TDBEdit
+      Left = 16
+      Top = 70
+      Width = 105
+      Height = 21
+      DataField = 'Data'
+      DataSource = DataSource1
+      TabOrder = 1
+    end
+    object DBEdit3: TDBEdit
+      Left = 127
+      Top = 24
+      Width = 523
+      Height = 21
+      DataField = 'Descri'#231#227'o'
+      DataSource = DataSource1
+      TabOrder = 2
+    end
+    object DBEdit4: TDBEdit
+      Left = 672
+      Top = 24
+      Width = 113
+      Height = 21
+      DataField = 'Unidade'
+      DataSource = DataSource1
+      TabOrder = 3
+    end
+    object DBEdit5: TDBEdit
+      Left = 127
+      Top = 70
+      Width = 297
+      Height = 21
+      DataField = 'Fornecedor'
+      DataSource = DataSource1
+      TabOrder = 4
+    end
+    object DBEdit6: TDBEdit
+      Left = 672
+      Top = 70
+      Width = 113
+      Height = 21
+      DataField = 'Total'
+      DataSource = DataSource1
+      TabOrder = 5
+    end
+    object DBEdit7: TDBEdit
+      Left = 545
+      Top = 70
+      Width = 121
+      Height = 21
+      DataField = 'Unitario'
+      DataSource = DataSource1
+      TabOrder = 6
+    end
+    object DBEdit8: TDBEdit
+      Left = 430
+      Top = 70
+      Width = 109
+      Height = 21
+      DataSource = DataSource1
+      TabOrder = 7
+    end
+  end
+  object Panel3: TPanel
+    Left = 0
+    Top = 183
+    Width = 785
+    Height = 98
+    TabOrder = 2
+    object Label9: TLabel
+      Left = 11
+      Top = 8
+      Width = 158
+      Height = 13
+      Caption = 'Pesquisa, Ordena'#231#227'o e Filtragem'
+    end
+    object Label10: TLabel
+      Left = 11
+      Top = 32
+      Width = 33
+      Height = 13
+      Caption = 'Campo'
+    end
+    object Label11: TLabel
+      Left = 184
+      Top = 32
+      Width = 24
+      Height = 13
+      Caption = 'A'#231#227'o'
+    end
+    object Label12: TLabel
+      Left = 360
+      Top = 32
+      Width = 24
+      Height = 13
+      Caption = 'Valor'
+    end
+    object ComboBox1: TComboBox
+      Left = 11
+      Top = 51
+      Width = 167
+      Height = 21
+      ItemIndex = 0
+      TabOrder = 0
+      Text = 'C'#243'digo'
+      Items.Strings = (
+        'C'#243'digo'
+        'Descri'#231#227'o'
+        'Unidade'
+        'Fornecedor'
+        'Data'
+        'Quantidade'
+        'Unitario'
+        'Total')
+    end
+    object ComboBox2: TComboBox
+      Left = 184
+      Top = 51
+      Width = 170
+      Height = 21
+      ItemIndex = 0
+      TabOrder = 1
+      Text = 'Indexar'
+      Items.Strings = (
+        'Indexar'
+        'Locate'
+        'FindKey'
+        'Limpar'
+        'Percorrer'
+        'Filtrar'
+        'Limpar Filtro')
+    end
+    object Edit1: TEdit
+      Left = 360
+      Top = 51
+      Width = 174
+      Height = 21
+      TabOrder = 2
+    end
+    object Button1: TButton
+      Left = 556
+      Top = 48
+      Width = 213
+      Height = 25
+      Caption = 'Executar'
+      TabOrder = 3
+    end
+  end
+  object DBGrid1: TDBGrid
+    Left = 0
+    Top = 282
+    Width = 785
+    Height = 152
+    DataSource = DataSource1
+    TabOrder = 3
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+  end
+  object GroupBox1: TGroupBox
+    Left = 0
+    Top = 440
+    Width = 785
+    Height = 71
+    Caption = 'Totais'
+    TabOrder = 4
+    object Label13: TLabel
+      Left = 280
+      Top = 40
+      Width = 115
+      Height = 13
+      Caption = 'Quantidade em Estoque'
+    end
+    object Label14: TLabel
+      Left = 561
+      Top = 40
+      Width = 81
+      Height = 13
+      Caption = 'Valor do Estoque'
+    end
+    object DBEdit9: TDBEdit
+      Left = 401
+      Top = 32
+      Width = 121
+      Height = 21
+      DataSource = DataSource1
+      TabOrder = 0
+    end
+    object DBEdit10: TDBEdit
+      Left = 648
+      Top = 32
+      Width = 134
+      Height = 21
+      DataSource = DataSource1
+      TabOrder = 1
+    end
+  end
+  object ClientDataSet1: TClientDataSet
+    Aggregates = <>
+    AggregatesActive = True
+    Params = <>
+    Left = 520
+    Top = 336
+    object ClientDataSet1Código: TIntegerField
+      FieldName = 'C'#243'digo'
+    end
+    object ClientDataSet1Descrição: TStringField
+      FieldName = 'Descri'#231#227'o'
+      Size = 50
+    end
+    object ClientDataSet1Unidade: TStringField
+      FieldName = 'Unidade'
+      Size = 2
+    end
+    object ClientDataSet1Fornecedor: TStringField
+      FieldName = 'Fornecedor'
+      Size = 50
+    end
+    object ClientDataSet1Data: TDateField
+      FieldName = 'Data'
+    end
+    object ClientDataSet1Quantidade: TFloatField
+      FieldName = 'Quantidade'
+    end
+    object ClientDataSet1Unitario: TCurrencyField
+      FieldName = 'Unitario'
+    end
+    object ClientDataSet1Total: TCurrencyField
+      FieldKind = fkCalculated
+      FieldName = 'Total'
+      Calculated = True
+    end
+    object ClientDataSet1EstoqueQtd: TAggregateField
+      FieldName = 'EstoqueQtd'
+      Visible = True
+      Active = True
+      DisplayName = ''
+    end
+    object ClientDataSet1EstoqueVlr: TAggregateField
+      FieldName = 'EstoqueVlr'
+      Visible = True
+      Active = True
+      DisplayName = ''
+    end
+  end
+  object DataSource1: TDataSource
+    DataSet = ClientDataSet1
+    Left = 592
+    Top = 336
+  end
+end
