@@ -1,0 +1,16 @@
+program PRJVeiculos;
+
+uses
+  Vcl.Forms,
+  FRM.Principal in 'FRM.Principal.pas' {Form1},
+  DM.Principal in 'DM.Principal.pas' {DataModule2: TDataModule};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TDataModule2, DataModule2);
+  Application.Run;
+end.

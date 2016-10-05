@@ -1,0 +1,20 @@
+program PRJDBEXPRESS;
+
+uses
+  Vcl.Forms,
+  Frm.Principal in 'Frm.Principal.pas' {FrmPrincipal},
+  Dm.Cadastro.Localizacao in 'Dm.Cadastro.Localizacao.pas' {DmCadastroLocalizacao: TDataModule},
+  Dm.Database in 'Dm.Database.pas' {DmDatabase: TDataModule};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFrmPrincipal, FrmPrincipal);
+  Application.CreateForm(TDmDatabase, DmDatabase);
+  Application.CreateForm(TDmCadastroLocalizacao, DmCadastroLocalizacao);
+  Application.CreateForm(TDmCadastroLocalizacao, DmCadastroLocalizacao);
+  Application.CreateForm(TDmDatabase, DmDatabase);
+  Application.Run;
+end.

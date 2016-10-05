@@ -1,0 +1,5 @@
+object DmDatabase: TDmDatabase
+  OldCreateOrder = False
+  Height = 242
+  Width = 639
+end

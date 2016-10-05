@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/06/09 19:11:25.000.745,=C:\Users\Christian Frey\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/08/24 21:13:00.000.784,=C:\Users\Frey\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/08/24 21:15:37.000.045,C:\4º PERIODO\QUARTA - DELPHI\HORUS-LP2\PRJDBEXPRESS\Frm.Principal.dfm=C:\Users\Frey\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2016/08/24 21:15:37.000.045,C:\4º PERIODO\QUARTA - DELPHI\HORUS-LP2\PRJDBEXPRESS\Frm.Principal.pas=C:\Users\Frey\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/08/24 21:16:15.000.848,C:\4º PERIODO\QUARTA - DELPHI\HORUS-LP2\PRJDBEXPRESS\PRJDBEXPRESS.dproj=C:\Users\Frey\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2016/08/24 21:21:37.000.411,=C:\4º PERIODO\QUARTA - DELPHI\HORUS-LP2\PRJDBEXPRESS\Unit1.pas</Transaction>
+    <Transaction>2016/08/24 21:22:53.000.432,C:\4º PERIODO\QUARTA - DELPHI\HORUS-LP2\PRJDBEXPRESS\Dm.Database.dfm=C:\4º PERIODO\QUARTA - DELPHI\HORUS-LP2\PRJDBEXPRESS\Unit1.dfm</Transaction>
+    <Transaction>2016/08/24 21:22:53.000.432,C:\4º PERIODO\QUARTA - DELPHI\HORUS-LP2\PRJDBEXPRESS\Dm.Database.pas=C:\4º PERIODO\QUARTA - DELPHI\HORUS-LP2\PRJDBEXPRESS\Unit1.pas</Transaction>
+    <Transaction>2016/08/24 21:41:41.000.316,=C:\4º PERIODO\QUARTA - DELPHI\HORUS-LP2\PRJDBEXPRESS\Unit1.pas</Transaction>
+    <Transaction>2016/08/24 21:44:34.000.201,C:\4º PERIODO\QUARTA - DELPHI\HORUS-LP2\PRJDBEXPRESS\Dm.Cadastro.Localizacao.dfm=C:\4º PERIODO\QUARTA - DELPHI\HORUS-LP2\PRJDBEXPRESS\Unit1.dfm</Transaction>
+    <Transaction>2016/08/24 21:44:34.000.201,C:\4º PERIODO\QUARTA - DELPHI\HORUS-LP2\PRJDBEXPRESS\Dm.Cadastro.Localizacao.pas=C:\4º PERIODO\QUARTA - DELPHI\HORUS-LP2\PRJDBEXPRESS\Unit1.pas</Transaction>
+    <Transaction>2016/08/31 19:27:56.000.146,=C:\4º PERIODO\QUARTA - DELPHI\HORUS-LP2\PRJDBEXPRESS\Frm.Pais.pas</Transaction>
+    <Transaction>2016/08/31 20:14:49.243,=C:\4º PERIODO\QUARTA - DELPHI\HORUS-LP2\PRJDBEXPRESS\Unit1.pas</Transaction>
+    <Transaction>2016/08/31 20:15:25.509,C:\4º PERIODO\QUARTA - DELPHI\HORUS-LP2\PRJDBEXPRESS\Frm.Estado.dfm=C:\4º PERIODO\QUARTA - DELPHI\HORUS-LP2\PRJDBEXPRESS\Unit1.dfm</Transaction>
+    <Transaction>2016/08/31 20:15:25.509,C:\4º PERIODO\QUARTA - DELPHI\HORUS-LP2\PRJDBEXPRESS\Frm.Estado.pas=C:\4º PERIODO\QUARTA - DELPHI\HORUS-LP2\PRJDBEXPRESS\Unit1.pas</Transaction>
+    <Transaction>2016/08/31 22:00:38.468,=C:\4º PERIODO\QUARTA - DELPHI\HORUS-LP2\PRJDBEXPRESS\Unit1.pas</Transaction>
+    <Transaction>2016/08/31 22:01:07.157,C:\4º PERIODO\QUARTA - DELPHI\HORUS-LP2\PRJDBEXPRESS\Frm.Cidade.pas=C:\4º PERIODO\QUARTA - DELPHI\HORUS-LP2\PRJDBEXPRESS\Unit1.pas</Transaction>
+    <Transaction>2016/08/31 22:01:07.157,C:\4º PERIODO\QUARTA - DELPHI\HORUS-LP2\PRJDBEXPRESS\Frm.Cidade.dfm=C:\4º PERIODO\QUARTA - DELPHI\HORUS-LP2\PRJDBEXPRESS\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
